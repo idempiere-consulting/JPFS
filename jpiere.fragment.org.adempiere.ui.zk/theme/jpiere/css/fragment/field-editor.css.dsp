@@ -17,6 +17,7 @@
  {
     border: 1px solid #bbbbbb;
     background-color: #f0f0f0!important; /*#D9E0EB;*/
+    color: #000!important;
  }
 
  .z-combobox-disabled .z-combobox-input {
@@ -266,6 +267,22 @@ span.grid-combobox-editor {
 	overflow: visible;
 }
 
+.idempiere-mandatory, .idempiere-mandatory input, .idempiere-mandatory a {
+    border-color:red;
+}
+
+.idempiere-label {
+    color: #333;
+}
+
+.idempiere-mandatory-label{
+   color: red!important;
+}
+
+.idempiere-zoomable-label {
+    cursor: pointer; 
+    text-decoration: underline;
+}
 
  .z-select{
 	height: 24px;
