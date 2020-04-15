@@ -1,0 +1,11 @@
+===== Configuratore di sistema (System)
+Disabilitare ZK_LOGO_LARGE e ZK_BROWSER_ICON
+
+
+===== NOMI GIUSTI PER I LOGO SU IDEMPIERE (tema jpiere...)
+background-world.png    ---> Immagine di sfondo login
+login-logo.png          ---> Immagine di login
+header-logo.png         ---> Immagine_icona in alto a sinistra su iDempiere
+
+
+Inserire queste immagini sul path '../theme/jpiere/images' del plug-in jar tema di jpiere
