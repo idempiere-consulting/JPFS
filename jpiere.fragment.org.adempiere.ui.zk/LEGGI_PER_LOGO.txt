@@ -8,4 +8,5 @@ login-logo.png          ---> Immagine di login
 header-logo.png         ---> Immagine_icona in alto a sinistra su iDempiere
 
 
-Inserire queste immagini sul path '../theme/jpiere/images' del plug-in jar tema di jpiere
+Inserire queste immagini nel path '../theme/jpiere/images' del plug-in jar tema di jpiere
+Inserire SOLO 'login-logo.png' e 'header-logo.png' nel path '../theme/default_test/images' del plug-in jar tema di jpiere
