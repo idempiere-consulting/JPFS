@@ -2,7 +2,7 @@
 <%@ taglib uri="http://www.idempiere.org/dsp/web/util" prefix="u" %>
 <%-- breadcrumb --%>
 .breadcrumb-toolbar-button {
-	background-color: transparent;
+	background-color: transparent; 
 	height: 22px;
 }
 .breadcrumb-toolbar-button img {
@@ -23,8 +23,9 @@
 .adwindow-form.z-grid > .z-grid-body {
 	overflow: visible !important;
 }
+
 .adwindow-layout {
-	position:absolute;
+	position:absolute; 
 	border: none;
 	width: 100%;
 	height: 100%;
@@ -98,7 +99,7 @@
 }
 
 .adwindow-detailpane {
-	width: 100%;
+	width: 100%; 
 	overflow-y: visible;
 }
 
@@ -151,16 +152,16 @@
 }
 
 .adwindow-detailpane-tabbox {
-	width: 99%;
+	width: 99%; 
 	margin: auto;
 	background-color: #D3D3D3;
 }
 
 .adwindow-detailpane-adtab-grid-south {
-	background-color: transparent;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	background-color: transparent; 
+	position: absolute; 
+	right: 0px; 
+	top: 0px; 
 	height: 24px;
 }
 
@@ -174,7 +175,8 @@
 }
 
 .adwindow-gridview-detail {
-	height: 200px;
+	min-height: 200px;
+	height: 35%;
 }
 
 .adwindow-gridview-detail + .z-south-splitter {
@@ -235,8 +237,8 @@
 }
 
 .adtab-form-borderlayout {
-	width: 100%;
-	height: 100%;
+	width: 100%; 
+	height: 100%; 
 	position: absolute;
 }
 
@@ -244,10 +246,10 @@
 	background-color: #E9F0FF;/*JPIERE*/
 }
 
-.adtab-form-borderlayout .z-south-collapsed:before {
+.adtab-form-borderlayout .z-south-collapsed:before { 
 	content: '${u:cleanAmp(u:getMsg(u:getCtx(), "Detail"))}';
-	position: absolute;
-	font-size: 12px;
+	position: absolute; 
+	font-size: 12px; 
 	font-weight: bold;
 	text-align: center;
 	line-height: 12px;
@@ -289,6 +291,7 @@
 		height: 80% !important;
 	}
 }
+
 .activity-card {
 	border: 1px solid #d0cdc8;
 	border-top-left-radius: 2px;

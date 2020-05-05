@@ -9,7 +9,7 @@ when detect side effect, fix to only apply for parameter window*/
 	height: 100%;
 }
 .process-modal-dialog.z-window > .z-window-content {
-	height: 100%;
+	flex: 1 1 0;
 }
 
 .main-parameter-layout,
@@ -39,12 +39,12 @@ when detect side effect, fix to only apply for parameter window*/
 
 .message-paramenter{
 	max-height: 300pt; 
-	overflow: hidden;
+	overflow: hidden; 
 	margin: 10px;
 }
 
 .option-input-parameter{
-
+	
 }
 
 .bottom-container{
@@ -62,6 +62,10 @@ when detect side effect, fix to only apply for parameter window*/
 	overflow-x: auto;
 	overflow-y: hidden;
 	padding: 4px;/*JPIERE*/
+}
+
+.result-parameter-layout {
+	overflow: auto;
 }
 
 .popup-dialog.z-window.z-window-overlapped.z-window-shadow,
@@ -92,11 +96,12 @@ when detect side effect, fix to only apply for parameter window*/
 .popup-dialog .input-paramenter-layout{
 	width: 90%;
 }
+
 @media screen and (max-width: 500px) {
 	.option-input-parameter.z-label.print-format-label,
 	.option-input-parameter.z-label.view-report-label {
 		display: none;
-	}
+	}		
 }
 @media screen and (min-width: 501px) {
 	.option-input-parameter.print-format-list > input::-webkit-input-placeholder {
