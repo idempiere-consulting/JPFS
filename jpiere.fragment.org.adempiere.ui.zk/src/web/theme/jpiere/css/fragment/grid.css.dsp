@@ -59,6 +59,12 @@ div.z-column-cnt, div.z-grid-header div.z-auxheader-cnt {
 	display: inline-block;
 	width: 100%;
 }
+@media only screen 
+  and (max-device-width: 700px) {
+	.z-listcell > div.z-listcell-content {
+		white-space: pre-line;
+	}	
+}
 
 /*JPIERE-0014 Delete .z-column-content*/
 .z-listheader-content, .z-listcell-content {
@@ -99,10 +105,10 @@ div.z-column-cnt, div.z-grid-header div.z-auxheader-cnt {
 	border: none !important;
 	background-color: transparent !important;
 }
-.grid-layout tr.z-row-over>td.z-row-inner, .grid-layout tr.z-row-over>.z-cell {
+.grid-layout tr.z-row:hover>td.z-row-inner, .grid-layout tr.z-row:hover>.z-cell {
 	border: none !important;
 }
-.grid-layout tr.z-row-over>td.z-row-inner, .grid-layout tr.z-row-over>.z-cell {
+.grid-layout tr.z-row:hover>td.z-row-inner, .grid-layout tr.z-row:hover>.z-cell {
 	background-image: none !important;
 }
 
@@ -116,6 +122,11 @@ tbody.z-listbox-empty-body td {
 
 div.z-listbox-body .z-listcell {
 	/*padding: 2px;*/ /*JPIERE*/
+}
+
+.info-panel .z-listbox-body{/*JPIERE*/
+  height: calc(100% - 30px ) !important;
+  user-select: text; /*for Ctrl+C Copy at Info Window*/
 }
 
 .z-listbox-autopaging .z-listcell-cnt {

@@ -39,15 +39,17 @@ when detect side effect, fix to only apply for parameter window*/
 }
 
 .bottom-parameter-layout{
-    padding: 12px 15px 8px 15px;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    background-color: #E9F0FF;
+	padding: 4px 4px 0px 4px;
+	/*border-top: 1px solid rgba(0, 0, 0, 0.2); JPIERE - Comment Out */
+	overflow: visible;
+
+    border-top: 1px solid #ccc;/*JPIERE*/
+    background-color: #E9F0FF;/*JPIERE*/
 }
 
 .message-paramenter{
 	max-height: 300pt;
-	overflow: auto; 
+	overflow: auto;
 	margin: 10px;
 	line-height: normal;
 }
@@ -58,7 +60,6 @@ when detect side effect, fix to only apply for parameter window*/
 
 .bottom-container{
 	overflow: hidden;
-	padding: 4px;/*JPIERE*/
 }
 
 .button-container{
@@ -70,7 +71,6 @@ when detect side effect, fix to only apply for parameter window*/
 .save-parameter-container{
 	overflow-x: auto;
 	overflow-y: hidden;
-	padding: 4px;/*JPIERE*/
 }
 
 .result-parameter-layout {
@@ -79,7 +79,7 @@ when detect side effect, fix to only apply for parameter window*/
 
 .popup-dialog.z-window.z-window-overlapped.z-window-shadow,
 .popup-dialog.z-window.z-window-noborder.z-window-highlighted.z-window-shadow{
-	width:780px; /*JPIERE*/
+	width:720px; /*JPIERE*/
 }
 @media screen and (max-width: 600px) {
 	.popup-dialog.z-window.z-window-overlapped.z-window-shadow,
@@ -90,15 +90,21 @@ when detect side effect, fix to only apply for parameter window*/
 
 .input-paramenter-layout{
 	width: 70%;
+	margin-left: 5%;
+	margin-right: 25%;
 }
 @media screen and (max-width: 700px) {
 	.input-paramenter-layout{
 		width: 90% !important;
+		margin-left: 2% !important;
+		margin-right: 8% !important;
 	}
 }
 @media screen and (max-width: 500px) {
 	.input-paramenter-layout{
 		width: 100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
 }
 

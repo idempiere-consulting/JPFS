@@ -45,7 +45,7 @@
 
 .z-panel-head .z-panel-header {
 	padding: 0 0 2px 0;
-	color: #262626;
+	color: #ffffff; /*JPIERE*/
 	background: #003894;;
 	/*background: #3a5caa;JPiere*/
 	font-weight: 300;
@@ -296,6 +296,44 @@
 	padding-right: 4px;*/
 }
 
+<%-- User Favorite Dashboard Panel Start --%>
+.fav-tree-panel {
+  border-radius: 0px;
+  border: 1px solid #d8d8d8 !important;
+}
+
+.fav-toolbar {
+}
+
+.fav-toolbar-div {
+  position: relative;
+  width: 100%;
+}
+
+.fav-tree-btn {
+  margin-left: 5px !important;
+  padding: 3px 15px;
+  border: 1px solid #6d6d6d;
+}
+
+.fav-folder-textbox {
+  width: 100%;
+}
+.fav-summary-folder .z-treecell-content {
+  font-weight: bold;
+}
+
+.fav-expand-mode {
+  transform: rotate(180deg);
+}
+
+.fav-mobile-ctx-menu {
+  margin: 0px 5px;
+  padding: 0px 5px;
+  vertical-align: middle;
+}
+<%-- User Favorite Dashboard Panel End --%>
+
 /*JPIERE-0110 Info Gadget*/
 .jpiere-infogadget-content {
 	background-color: #FFFFFF !important;
@@ -303,4 +341,19 @@
 
 .jpiere-infogadget-attachment {
 	background-color: #FFFFFF !important;
+}
+
+.jpiere-infogadget-movie-wrap {
+     position: relative;
+     padding-bottom: 56.25%; /*in case of 16:9*/
+     height: 0;
+     overflow: hidden;
+}
+ 
+.jpiere-infogadget-movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
 }

@@ -16,6 +16,9 @@
 .z-icon-Calculator:before {
 	content: "\f1ec";
 }
+.z-icon-Calendar:before {
+	content: "\f073";
+}
 .z-icon-Cancel:before {
 	content: "\f00d";
 }
@@ -26,8 +29,14 @@
 .z-icon-Chat:before {
 	content: "\f0e6";
 }
-.z-icon-Copy:before {	
+.z-icon-Collapsing:before {
+	content: "\f102";
+}
+.z-icon-Copy:before {
 	content: "\f0c5";
+}
+.z-icon-CSVImport:before {
+	content: "\f0f6";
 }
 .z-icon-Customize:before {
 	content: "\f0db";
@@ -36,7 +45,10 @@
 	font-weight: bold;
 	content: "\f014";/*JPIERE*/
 }
-.z-icon-Detail:before {	
+.z-icon-DeSelectAll:before {
+	content: "\f248";
+}
+.z-icon-Detail:before {
 	content: "\f0d7";
 }
 .z-icon-Edit:before {	
@@ -57,8 +69,17 @@
 .z-icon-Expand:before {
 	content: "\f0d7";
 }
-.z-icon-Export:before {	
+.z-icon-Expanding:before {
+	content: "\f103";
+}
+.z-icon-Export:before {
 	content: "\f0ed";
+}
+.z-icon-FastBack:before {
+	content: "\f049";
+}
+.z-icon-FastForward:before {
+	content: "\f050";
 }
 .z-icon-FieldSuggestion:before {
 	content: "\f0e5";
@@ -77,6 +98,9 @@
 }
 .z-icon-Form:before {
 	content: "\f00b";
+}
+.z-icon-GetMail:before {
+	content: "\f0e0";
 }
 .z-icon-Help:before {
 	content: "\f059";
@@ -117,7 +141,10 @@
 .z-icon-InfoInvoice:before {	
 	content: "\f14b";
 }
-.z-icon-InfoOrder:before {	
+.z-icon-InfoLocator:before {
+	content: "\f1b2";
+}
+.z-icon-InfoOrder:before {
 	content: "\f0c9";
 }
 .z-icon-InfoPayment:before {	
@@ -131,6 +158,9 @@
 }
 .z-icon-InfoSchedule:before {	
 	content: "\f017";
+}
+.z-icon-InfoShipment:before {
+	content: "\f0d1";
 }
 .z-icon-LastRecord:before {
 	content: "\f051";
@@ -214,7 +244,10 @@
 .z-icon-Process:before {
 	content: "\f013";
 }
-.z-icon-Product:before {	
+.z-icon-ProcessMenu:before {
+	content: "\f085";
+}
+.z-icon-Product:before {
 	content: "\f07a";
 }
 .z-icon-QuestionMessageBox:before {
@@ -222,6 +255,9 @@
 	font-size: 32px;
 	color: green;
 	font-family: FontAwesome;
+}
+.z-icon-QuickForm:before {
+	content: "\f0ae";
 }
 .z-icon-Refresh:before {
 	content: "\f021";
@@ -233,7 +269,7 @@
 	content: "\f046";
 }
 .z-icon-Reset:before {
-	content: "\f0e2";
+	content: "\f12d";
 }
 .z-icon-Save:before {	
 	content: "\f0c7";
@@ -244,20 +280,53 @@
 .z-icon-Search:before {
 	content: "\f002";
 }
+.z-icon-SelectAll:before {
+	content: "\f247";
+}
 .z-icon-SendMail:before {
 	content: "\f003";
 }
-.z-icon-Single:before {	
+.z-icon-SequenceChange:before {
+	content: "\f14d";
+}
+.z-icon-Share:before {
+	content: "\f0ac";
+}
+.z-icon-ShowMore:before {
+	content: "\f142";
+}
+.z-icon-Single:before {
 	content: "\f044";
+}
+.z-icon-StepBack:before {
+	content: "\f04a";
+}
+.z-icon-StepForward:before {
+	content: "\f04e";
 }
 .z-icon-Task:before {
 	content: "\f013";/*JPIERE*/
 }
+.z-icon-ThreeLineMenu:before {
+	content: "\f0c9";
+}
+.z-icon-Translate:before {
+	content: "\f1ab";
+}
 .z-icon-Trash:before {
 	content: "\f014";
 }
-.z-icon-UnprocessedDoc:before {	
+.z-icon-TreeFavNodeAdd:before {
+	content: "\f07b";
+}
+.z-icon-UnprocessedDoc:before {
 	content: "\f044";
+}
+.z-icon-Undo:before {
+	content: "\f0e2";
+}
+.z-icon-UnSort:before {
+	content: "\f074";
 }
 .z-icon-VPreference:before {
 	content: "\f039";
@@ -276,24 +345,6 @@
 }
 .z-icon-ZoomAcross:before {	
 	content: "\f00e";
-}
-.z-icon-CSVImport:before {
-	content: "\f0f6";
-}
-.z-icon-ShowMore:before {
-	content: "\f142";
-}
-.z-icon-Share:before {
-	content: "\f0ac";
-}
-.z-icon-QuickForm:before {
-	content: "\f0ae";
-}
-.z-icon-UnSort:before {
-	content: "\f074";
-}
-.z-icon-GetMail:before {
-	content: "\f0e0";
 }
 
 .z-icon-Document:before {/*JPIERE*/

@@ -6,13 +6,34 @@
 	border: none !important;
 }
 
-.info-panel .z-north-body {
-    padding-top: 4px; /*JPIERE*/
+.info-panel .statusBar .z-west,
+.info-panel .statusBar .z-center {
+    background: #E9F0FF; /*JPIERE*/
+	border: none;
+	padding-top: 4px; /*JPIERE*/
+	padding-left: 4px;
 }
 
+.info-panel .statusBar .z-east {
+    background: #E9F0FF; /*JPIERE*/
+	border: none;
+	padding-top: 2px;
+	padding-left: 4px;
+	width:24px;
+}
 
-.info-panel .z-center {
+.info-panel .z-north-body{ /*JPIERE*/
+    padding-top: 4px; 
+}
+
+.info-panel .z-center { /*JPIERE*/
+    padding-top: 2px; 
+}
+
+.info-panel .z-south-title{
     padding-top: 2px; /*JPIERE*/
+	bottom: 4px;
+    position: relative;
 }
 
 .info-panel .z-listbox {
