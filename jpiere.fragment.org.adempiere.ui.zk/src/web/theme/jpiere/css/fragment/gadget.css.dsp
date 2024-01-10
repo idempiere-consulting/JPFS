@@ -16,6 +16,20 @@
 	border: none;
 }
 
+.dashboard-widget.z-panel {
+	display: flex; 
+	flex-direction: column; 
+	justify-content: stretch;
+}
+
+.dashboard-widget > .z-panel-body {
+	flex-grow: 1;
+}
+
+.statusline-wrapper {
+	height: 100%;
+}
+
 .desktop-left-column .z-panel-body { /*JPIERE*/
 	border-radius: 0px 0px 0px 0px !important;
 	margin: 0px 2px 0px 2px;
@@ -36,6 +50,7 @@
 
 .z-panelchildren {
 	border: none;
+	height: 100%;
 }
 
 .z-panel-head {
@@ -81,6 +96,7 @@
 	margin-right: auto;
 	position: relative;
 	width: 99%;
+	height: 100%;
 }
 
 .dashboard-widget-max {
@@ -274,8 +290,47 @@
 	width: 100%;
 }
 
+.gauge-indicator-title {
+	text-align: center;
+	padding-top: 1px; 
+	padding-bottom: 1px;
+	line-height:12px;
+}
+
+.performance-gadget {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+	cursor: pointer;
+}
+
+.performance-gadget > .z-div {
+	width: 100%;	
+}
+
+@media screen and (min-width: 768px) {
+	.dashboard-row .chart-gadget {
+		max-height: 300px; 
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.dashboard-row .chart-gadget {
+		max-height: 150px; 
+	}
+}
+
 .dashboard-widget.dashboard-widget-max .chart-gadget {
 	height: 100% !important;
+}
+
+.statusline-gadget {
+	display: flex;
+	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 40px 0px 10px;
+ 	height: 100%;
 }
 
 .help-content
@@ -333,6 +388,34 @@
   vertical-align: middle;
 }
 <%-- User Favorite Dashboard Panel End --%>
+
+.z-anchorchildren .z-hlayout {
+	white-space: normal;
+}
+
+.desktop-home-tabpanel .z-hlayout-inner {
+	padding: 5px !important;
+}
+
+.dashboard-content-help-icon {
+	padding: 5px;
+	cursor: default;
+}
+
+.fill-mandatory-process-para-wrapper {
+	padding: 11px;
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+}
+
+.fill-mandatory-process-para-text {
+    background: #C62223;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 90%;
+}
 
 /*JPIERE-0110 Info Gadget*/
 .jpiere-infogadget-content {

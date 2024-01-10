@@ -48,6 +48,9 @@
 	background-color: #E9F0FF; /*JPIERE*/
 }
 
+.info-panel .z-south-body .z-vbox {
+    height: 108px !important;/*JPIERE*/
+}
 .info-panel .z-window-highlighted .z-window-content {
 	padding: 0px;
 }
@@ -60,6 +63,6 @@
 	max-height: 50%;
 }
 .info-panel .z-listheader > .z-listheader-content {
-	white-space: pre-line;
+	white-space: nowrap; /*JPIERE*/
 	text-overflow: ellipsis;
 }

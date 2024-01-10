@@ -138,7 +138,6 @@
 .btn-cancel.z-button [class^="z-icon-"]:before {
 	color: red;
 }
-
 .btn-negate.z-button {
 	background: none;
 	border: none;
