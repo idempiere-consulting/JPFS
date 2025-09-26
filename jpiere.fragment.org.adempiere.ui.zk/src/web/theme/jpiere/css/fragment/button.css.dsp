@@ -95,7 +95,7 @@
 	background-color: transparent;
 }
 
-.txt-btn img, .small-img-btn img {
+.txt-btn img, .small-img-btn img, .img-txt-btn img {
 	height: 16px;
 	width: 16px;
 	background-color: transparent;
@@ -109,6 +109,7 @@
 	border: solid 1px #bbb;
 	text-shadow: 0px 1px 2px #888;
 }
+
 .z-button [class^="z-icon-"],
 .z-button-os [class^="z-icon-"]{
 	font-size: larger;
@@ -133,11 +134,12 @@
 	text-align: center;
 }
 .btn-ok.z-button [class^="z-icon-"]:before {
-	color: green;
+	color: green;	
 }
 .btn-cancel.z-button [class^="z-icon-"]:before {
-	color: red;
+	color: red;	
 }
+
 .btn-negate.z-button {
 	background: none;
 	border: none;
@@ -161,4 +163,8 @@
 	font-size: 14px;
 	padding: 0px;
 	line-height: 14px;
+}
+
+.mobile .login-btn {
+    font-size: 0px !important;
 }

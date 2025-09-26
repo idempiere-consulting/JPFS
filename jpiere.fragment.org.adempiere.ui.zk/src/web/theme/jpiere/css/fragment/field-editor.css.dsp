@@ -312,8 +312,15 @@ span.grid-combobox-editor {
 }
 
 .idempiere-zoomable-label {
-    cursor: pointer;
+    cursor: pointer; 
     text-decoration: underline;
+}
+
+<%-- full size image hover --%>
+.fullsize-image {
+	padding: 5px;
+  	border: 1px solid #ccc;
+  	background: #e3f4f9;
 }
 
  .z-select{

@@ -2,7 +2,7 @@
 <%@ taglib uri="http://www.idempiere.org/dsp/web/util" prefix="u" %>
 <%-- breadcrumb --%>
 .breadcrumb-toolbar-button {
-	background-color: transparent;
+	background-color: transparent; 
 }
 .breadcrumb-toolbar-button img {
 	width: 22px;
@@ -105,12 +105,12 @@
 	padding: 4px 0px;
 }
 .adwindow-breadcrumb-toolbar {
-	display: inline-block;
+	display: inline-block; 
 	text-align: right;
 }
 .adwindow-breadcrumb-toolbar .z-toolbar {
-	background-image: none;
-	background-color: transparent;
+	background-image: none; 
+	background-color: transparent; 
 	border: none;
 }
 .adwindow-breadcrumb .breadcrumb-record-info.link {
@@ -169,7 +169,7 @@
 	height: 16px;
 }
 
-.adwindow-detailpane-toolbar .z-toolbar-body .docstatus-normal,
+.adwindow-detailpane-toolbar .z-toolbar-body .docstatus-normal,  
 .adwindow-detailpane-toolbar .z-toolbar-body .docstatus-error {
 	padding-left: 4px;
 	margin-top: 2px;
@@ -329,9 +329,9 @@
 
 @media screen and (min-width: 600px) {
     /* Tablets and bigger */
-    .adwindow-detailpane-adtab-grid-south .z-paging ul>li {
-          display: inline!important;
-    }
+	.adwindow-detailpane-adtab-grid-south .z-paging ul>li {
+  		display: inline!important;
+	}
 }
 
 .activity-card {
@@ -360,16 +360,17 @@
 	margin-left: 3px;
 	margin-right: 3px;
 }
-@media only screen
+
+@media only screen 
   and (max-device-width: 700px) {
 	.mobile .adtab-grid > .z-cell > .z-label {
 		white-space: pre-line;
-	}
+	}	
 }
 .adtab-grid > .z-grid-header > table > tbody > tr.z-columns > th.z-column > .z-column-content {
-	text-overflow: ellipsis;
+	text-overflow: ellipsis;	
 }
-@media only screen
+@media only screen 
   and (max-device-width: 700px) {
 	.mobile .adtab-grid > .z-grid-header > table > tbody > tr.z-columns > th.z-column > .z-column-content {
 		white-space: pre-line;
@@ -377,7 +378,7 @@
 }
 
 .mobile-overflow-link {
-	font-weight: 700;
+	font-weight: 700; 
 	text-decoration: none;
 	transition: background 0.8s;
 	background-position: center;
@@ -427,7 +428,7 @@
     100% { transform: translateX(0%); }
 }
 
-@media only screen
+@media only screen 
   and (max-device-width: 700px) {
 	.adwindow-detailpane-toolbar .z-paging-button {
 		margin-right: 2px;
@@ -443,10 +444,10 @@
 		padding-right: 0px;
 	}
 }
-@media only screen
+@media only screen 
   and (max-device-width: 350px) {
  	.adwindow-detailpane-toolbar .z-paging-input {
 		width: 30px;
 	}
 }
-
+  
